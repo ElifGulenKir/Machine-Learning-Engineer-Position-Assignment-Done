@@ -1,13 +1,13 @@
 # DataguessPredictiveModel
 Predicting stock prices application.
 
-To train or run the code, please follow the steps down below: (or refer to the "report" file for further details.)
-*Note1:* Throughout the code, please use "shift + enter" compound to exacute the corresponding lines. This is because the code was sectioned for convinence.
-*Note2:* Though, the code repo seems so congested with external files/documents/scpipts, training can be done only in a single file, namely train.py. The other externalities are coded to guide us through having a fruitfully training process with out facing any possible errors.
+To train or run the code, please follow the steps down below: (or refer to the "report" file for further details.)<br>
+*Note1:* Throughout the code, please use "shift + enter" compound to exacute the corresponding lines. This is because the code was sectioned for convinence.<br>
+*Note2:* Though, the code repo seems so congested with external files/documents/scpipts, training can be done only in a single file, namely train.py. The other externalities are coded to guide us through having a fruitfully training process with out facing any possible errors.<br>
 
-**1** Open up the train.py file.\\
-**2** Run the first lines ofimporting libraries part. Make sure that you have all the neccassary libraries downloaded on your environment prior.\\
-**3** Adjust you start/end times along with desired features to obtain the data.
+**1** Open up the train.py file.<br>
+**2** Run the first lines ofimporting libraries part. Make sure that you have all the neccassary libraries downloaded on your environment prior.<br>
+**3** Adjust you start/end times along with desired features to obtain the data.<br>
 **4** Build the model and pass the training parameters. Note that, this part is highly essential to determine as training and model parameters are highly dependent on your environment  and how powerfull it is. Having a huge data but inadequate parameters will yield a poor training results, vice versa. 
 **5** After training completes, visualize the training results by simply calling the related visualize lstm method. (which can be already seen in the file!)
 **6** Then, how the training has taken its place can be investiagted furher by employing various performance metrics at the end.
